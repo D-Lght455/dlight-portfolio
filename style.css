@@ -1,7 +1,16 @@
 h1{
     color:blue;
     word-wrap: initial;
-    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#main-heading {
+    color: #333;
+    font-size: 2em;
+    text-align: center;
 }
 div{
     display: flex;
@@ -121,4 +130,12 @@ img {
   max-width: 100%;
   height: auto;
   border-radius: 8px;
+}
+.outer {
+  max-width: 100%;
+  padding: 10px;
+}
+img {
+  max-width: 100%;
+  height: auto;
 }
